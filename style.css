@@ -3,13 +3,113 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#font {
+#corps {
+        height:100%;
+	width: 100%;
+	margin: 0 auto;
+}
+section.menu1 {
+       height:628px;
+       float: left;
+       width: 929px;
+       border: 1px solid none;
+       margin-left:76px;
+       background-color:white;
+}
+div.menu1 {
+	margin-left:20px;
+}
+.lieu {
+	display: block;
 	background-color: white;
+	height: 100px;
+	width: 860px;
+	text-align: left;
+	position: relative;
+	left:10px;
 }
-.kp-breadcrumb {
-
+.lieu ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
 }
-.kp-breadcrumb ol li {
-	list-style: none;
-	float: left;
+.lieu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding-bottom: -5px;
+	z-index: 1;
+}
+.lieu ul li a:hover {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	height: 4px;
+	width: 0px;
+	color: blue;
+}
+.lieu ul li a:hover, a:after {
+	width: 100%;
+	background-color: blue;
+}
+section.menu2 {
+	border: 1px solid none;
+	vertical-align: top;
+	display: block;
+	position: relative;
+	right: 72px;
+	width: 250px;
+	height: 135px;
+	background-color: white;
+	float:right;
+}
+div.network {
+    display:inline-block;
+    margin-top:18px;
+    text-align:center;
+    margin-left:19px;
+}
+mark {
+	background: #546EE3;
+	color: white;
+}
+.formconnexion {
+    display: block;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.formconnexion input {
+    margin-bottom:10px;
+}
+.espace_connexion {
+    float:none;
+    position:relative;
+}
+h4{
+    float:left;
+    margin-left:30px;
+    margin-top:1px;
+}
+.no-account {
+    font-size:12px;
+    
+}
+.account {
+    font-size:12px;
+}
+.forminscription {
+    display: block;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 244px;
+}
+.forminscription input {
+    margin-bottom:10px;
+}
+.forminscription input.remplir {
+    width:250px;
+}
+.espace_inscription {
+    float:none;
+    position:relative;
 }

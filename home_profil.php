@@ -1,18 +1,14 @@
-<?php
-require_once('php/config.php');
-?>
 <html lang="fr">
 	<head>
 		<title>Mister1610</title>
 		<meta charset="utf-8"/>
-		<link rel="shortcut icon" href="#" type="image/x-icon; charset=binary">
-		<link rel="icon" href="#" type="image/x-icon; charset=binary">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="js/jquery.mCustomScrollbar.min.css" />
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	    <script>
 		    (function($){
-		        $(window).load(function(){
+		        $(window).on("load",function(){
 		            $("body").mCustomScrollbar({
 		            	theme:'minimal'
 		            });
@@ -22,7 +18,7 @@ require_once('php/config.php');
 	</head>
 <body>
 <?php $en_cour = "ACCUEIL" ?>
-<?php include("menu.php"); ?>
+<?php include("menu_profil.php"); ?>
 <br>
 <div id="corps"><!--à recopier dans tout les fichier (div corps) -->
   <section class="menu1"><!--Tous ce qui va être a gauche de l'écran-->

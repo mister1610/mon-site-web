@@ -3,14 +3,14 @@
 		<div class="navigation">
 			<div class="logo">
 			<br>
-				<a href=""><img src="image/logo.jpg" alt="Logo Mister1610" width="130" height="26"></a>
+				<a href=""><img src="../image/logo.jpg" alt="Logo Mister1610" width="130" height="26"></a>
 			</div>
 			<ul>
-				<li><a href="home.php" style="width: 127px"<?php if ($en_cour == "ACCUEIL") { echo "id=\"en_cour\"";}?>>ACCUEIL</a></li>
+				<li><a href="../home.php" style="width: 127px"<?php if ($en_cour == "ACCUEIL") { echo "id=\"en_cour\"";}?>>ACCUEIL</a></li>
 				<li><a href="#" <?php if ($en_cour == "VIDEOS") { echo "id=\"en_cour\"";}?>>VIDEOS</a></li>
 				<li><a href="#" <?php if ($en_cour == "CHAT") { echo "id=\"en_cour\"";}?>>CHAT</a></li>
-				<li><a href="Se_Connecter.php" style="width: 187px"<?php if ($en_cour == "SE CONNECTER") { echo "id=\"en_cour\"";}?>>SE CONNECTER</a></li>
-				<li><a href="Inscription.php" style="width: 150px"<?php if ($en_cour == "S'INSCRIRE") { echo "id=\"en_cour\"";}?>>S'INSCRIRE</a></li>
+				<li><a href="../Se_Connecter.php" style="width: 187px"<?php if ($en_cour == "Se Connecter") { echo "id=\"en_cour\"";}?>>SE CONNECTER</a></li>
+				<li><a href="../Inscription.php" style="width: 150px"<?php if ($en_cour == "S'INSCRIRE") { echo "id=\"en_cour\"";}?>>S'INSCRIRE</a></li>
 
 			</ul>
 		</div>
